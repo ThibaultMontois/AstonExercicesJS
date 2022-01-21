@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #048B9A;
+    --secondary-color: lightgray;
+    --text-color: whitesmoke;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
