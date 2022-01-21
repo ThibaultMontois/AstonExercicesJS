@@ -1,5 +1,6 @@
 body {
     background-image: url('https://www.ezrahill.co.uk/wp-content/2019/04/DraggedImage.png');
+    background-size: cover;
 }
 
 .fizzbuzzplus_container {

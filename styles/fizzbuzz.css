@@ -1,5 +1,6 @@
 body {
     background-image: url('https://miro.medium.com/proxy/1*9NMB1-FcKt7P4H9lTeZwlg.png');
+    background-size: cover;
 }
 
 .fizzbuzz_container p {
