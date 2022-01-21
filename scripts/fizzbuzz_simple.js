@@ -1,5 +1,5 @@
 /**
- * Creates a main and div element.
+ * Creates a main and div elements.
  * Fill it with results of 'max' fizzbuzz using 'test_function'.
  * Then appends them into body element.
  * 
@@ -13,7 +13,10 @@
     fbz_container.classList.add('fizzbuzz_container');
 
     for (let num = 1; num <= max; num++) {
-        addFizzBuzz(fbz_container, num, test_function);
+        let p = document.createElement('p');
+        p.innerText += num < 10 ? `00${num} : ` : num < 100 ? `0${num} : ` : `${num} : `;
+        writeFizzBuzz(p, num, test_function);
+        fbz_container.appendChild(p);
     }
 
     main.appendChild(fbz_container);
