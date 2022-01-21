@@ -41,7 +41,7 @@ function fizzBuzzPlus() {
     fizzbuzzplus_container.appendChild(btn_plus);
 
     let p = document.createElement('p');
-    p.innerText += '0 : ';
+    p.innerText += '0 :';
     writeFizzBuzz(p, 0, isMultiple);
 
     fizzbuzzplus_container.appendChild(p);
