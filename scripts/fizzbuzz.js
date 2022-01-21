@@ -28,7 +28,6 @@ function isMultiple(num, den) {
  * @param { Function } test_function 
  */
 function writeFizzBuzz(container, num, test_function) {
-        container.innerText += num < 10 ? `00${num} : ` : num < 100 ? `0${num} : ` : `${num} : `;
         if (test_function(num, 3)) writeResp(container, 'Fizz');
         if (test_function(num, 5)) writeResp(container, 'Buzz');
 }

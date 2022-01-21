@@ -14,6 +14,7 @@
 
     for (let num = 1; num <= max; num++) {
         let p = document.createElement('p');
+        p.innerText += num < 10 ? `00${num} : ` : num < 100 ? `0${num} : ` : `${num} : `;
         writeFizzBuzz(p, num, test_function);
         fbz_container.appendChild(p);
     }

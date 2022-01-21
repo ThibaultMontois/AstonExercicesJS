@@ -6,7 +6,7 @@ function previousFizzbuzz() {
     let p = fizzbuzzplus_container.getElementsByTagName('p')[0];
     let num = parseInt(p.textContent);
     if (num > 0) {
-        p.textContent = '';
+        p.innerText = `${num - 1} :  `;
         writeFizzBuzz(p, num - 1, isMultiple);
     }
 }
@@ -18,7 +18,7 @@ function nextFizzbuzz() {
     let fizzbuzzplus_container = document.getElementsByClassName('fizzbuzzplus_container')[0];
     let p = fizzbuzzplus_container.getElementsByTagName('p')[0];
     let num = parseInt(p.textContent);
-    p.textContent = '';
+    p.innerText = `${num + 1} :  `;
     writeFizzBuzz(p, num + 1, isMultiple);
 }
 
@@ -41,6 +41,7 @@ function fizzBuzzPlus() {
     fizzbuzzplus_container.appendChild(btn_plus);
 
     let p = document.createElement('p');
+    p.innerText += '0 : ';
     writeFizzBuzz(p, 0, isMultiple);
 
     fizzbuzzplus_container.appendChild(p);
