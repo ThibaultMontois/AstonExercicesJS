@@ -2,8 +2,7 @@
 
 *Instructions*
 
-Tout comme l'exercice Nintendo, vous serez principalement évalué sur les bonnes pratiques de : 
-
+Tout comme l'exercice Nintendo, vous serez principalement évalué sur les bonnes pratiques de :  
 * JavaScript
     * `Documentation et auto-documentation,`
     * `Conventions de nommage,`
