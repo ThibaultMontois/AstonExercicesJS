@@ -60,6 +60,8 @@ function createHomeCard(title, desc, url) {
 
 /**
  * Creates main and home-cards element using a cards array, then display them into body.
+ * 
+ * @param { Array<Object> } cards 
  */
 function homePage(cards) {
     let main = document.createElement('main');
