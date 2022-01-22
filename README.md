@@ -5,18 +5,18 @@
 Tout comme l'exercice Nintendo, vous serez principalement évalué sur les bonnes pratiques de : 
 
 * JavaScript
-    * `Documentation et auto-documentation,`
-    * `Conventions de nommage,`
+    * `Documentation et auto-documentation`
+    * `Conventions de nommage`
     * `Algo`
 
 * Git
-    * `Conventionnal commit,`
-    * `Git Workflow,`
+    * `Conventionnal commit`
+    * `Git Workflow`
     * `Fréquence et utilité des commits/push`
 
 * HTML/CSS
-    * `Arborescence des pages et feuilles de style,`
-    * `Bonnes pratiques générales.`
+    * `Arborescence des pages et feuilles de style`
+    * `Bonnes pratiques générales`
 
 Vous avez initialement 20 points, et perdrez un point par mauvaise pratique identifiée.  
 NB : une mauvaise pratique présente deux fois sur une même page ne vous fera perdre qu'un seul point.
@@ -32,9 +32,9 @@ Et non, il n'est pas possible d'avoir plus de 20/20 <3
 
 Vous devez créer une page web principale sur laquelle vous insérerez des liens vers les différents exercices.
 
-* Les liens vers les exercices seront présentés sous formes de cartes dans le body.
-* Chaque carte affichera le nom et l'intitulé de l'exercice.
-* Un bouton cliquable permettra d'accéder à la page en question.
+* Les liens vers les exercices seront présentés sous formes de cartes dans le body
+* Chaque carte affichera le nom et l'intitulé de l'exercice
+* Un bouton cliquable permettra d'accéder à la page en question
 * Les informations de chaque cartes seront contenues dans le script ! En d'autres mots : il n'y aura rien ou presque dans votre HTML !
 
 ## Exercice 1 : Friendship is Magic
@@ -57,10 +57,10 @@ Vous insérerez un minimum de style afin que ce soit au moins agréable à regar
 
 Vous créerez une page qui affichera un champs de texte un compteur allant de 0 à 100. Il affichera : 
 
-* Le nombre en question,
-* Fizz si c'est un multiple de 3,
+* Le nombre en question
+* Fizz si c'est un multiple de 3
 * Buzz si c'est un multiple de 5
-* FizzBuzz si c'est un multiple de 3 et de 5.
+* FizzBuzz si c'est un multiple de 3 et de 5
 
 Tout votre code sera géré exclusivement par des fonctions.
 
@@ -68,10 +68,10 @@ Tout votre code sera géré exclusivement par des fonctions.
 
 Vous créerez un nouveau FizzBuzz, sauf que : 
 
-* Une case affichera le chiffre,
+* Une case affichera le chiffre
 * Fizz, Buzz ou FizzBuzz s'afficheront au dessus du chiffre, en grand
-* Les valeurs s'afficheront une à une,
+* Les valeurs s'afficheront une à une
 * Un boutton next permettra de passer à la valeur suivante
-* Un bouton "prev" permettra d'afficher la valeur précédente.
+* Un bouton "prev" permettra d'afficher la valeur précédente
 
 Recyclage de script : 1 point de récup <3
