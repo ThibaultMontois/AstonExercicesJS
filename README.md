@@ -5,18 +5,18 @@
 Tout comme l'exercice Nintendo, vous serez principalement évalué sur les bonnes pratiques de : 
 
 * JavaScript
-`*Documentation et auto-documentation,`
-`*Conventions de nommage,`
-`*Algo`
+`* Documentation et auto-documentation,`
+`* Conventions de nommage,`
+`* Algo`
 
 * Git
-`*Conventionnal commit,`
-`*Git Workflow,`
-`*Fréquence et utilité des commits/push`
+`* Conventionnal commit,`
+`* Git Workflow,`
+`* Fréquence et utilité des commits/push`
 
 * HTML/CSS
-`*Arborescence des pages et feuilles de style,`
-`*Bonnes pratiques générales.`
+`* Arborescence des pages et feuilles de style,`
+`* Bonnes pratiques générales.`
 
 Vous avez initialement 20 points, et perdrez un point par mauvaise pratique identifiée. 
 NB : une mauvaise pratique présente deux fois sur une même page ne vous fera perdre qu'un seul point. 
