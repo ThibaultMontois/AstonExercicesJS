@@ -1,14 +1,4 @@
 /**
- * Add 'text' in 'container'
- * 
- * @param { HTMLElement } container 
- * @param { String } text 
- */
-function writeResp(container, text) {
-    container.innerText += text;
-}
-
-/**
  * Check if 'num' is a multiple of 'den'
  * 
  * @param { Number } num 
