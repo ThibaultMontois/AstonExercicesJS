@@ -1,12 +1,14 @@
 /**
  * Creates a main and div elements.
- * Fill it with results of 'max' fizzbuzz using 'test_function'.
+ * Fill it with results of 'max' fizzbuzz using 'test_function', 'first_den' and 'second_den'.
  * Then appends them into body element.
  * 
  * @param { Number } max 
  * @param { Function } test_function 
+ * @param { Number } first_den 
+ * @param { Number } second_den 
  */
- function fizzBuzz(max, test_function) {
+ function fizzBuzzSimple(max, test_function, first_den, second_den) {
     let main = document.createElement('main');
 
     let fbz_container = document.createElement('div');
@@ -15,7 +17,7 @@
     for (let num = 1; num <= max; num++) {
         let p = document.createElement('p');
         p.innerText += num < 10 ? `00${num} : ` : num < 100 ? `0${num} : ` : `${num} : `;
-        writeFizzBuzz(p, num, test_function);
+        p.innerText += fizzBuzz(num, test_function, first_den, second_den);
         fbz_container.appendChild(p);
     }
 
@@ -24,6 +26,6 @@
 }
 
 /**
- * Launch fizzBuzz function.
+ * Launch fizzBuzzSimple function.
  */
- fizzBuzz(100, isMultiple);
+ fizzBuzzSimple(100, isMultiple, 3, 5);

@@ -1,14 +1,4 @@
 /**
- * Add 'text' in 'container'
- * 
- * @param { HTMLElement } container 
- * @param { String } text 
- */
-function writeResp(container, text) {
-    container.innerText += text;
-}
-
-/**
  * Check if 'num' is a multiple of 'den'
  * 
  * @param { Number } num 
@@ -20,14 +10,17 @@ function isMultiple(num, den) {
 }
 
 /**
- * Check if 'num' are multiples of 3, 5 or both using 'test_function'.
- * Write respectively 'Fizz', 'Buzz' or 'FizzBuzz' in a 'container' if they are.
+ * Check if 'num' are multiple of 'first_den', 'second_den' or both using 'test_function'.
  * 
- * @param { HTMLElement } container
  * @param { Number } num 
  * @param { Function } test_function 
+ * @param { Number } first_den 
+ * @param { Number } second_den 
+ * @returns { String } respectively 'Fizz', 'Buzz', 'FizzBuzz' or an empty string.
  */
-function writeFizzBuzz(container, num, test_function) {
-        if (test_function(num, 3)) writeResp(container, 'Fizz');
-        if (test_function(num, 5)) writeResp(container, 'Buzz');
+function fizzBuzz(num, test_function, first_den, second_den) {
+        let resp = '';
+        if (test_function(num, first_den)) resp += 'Fizz';
+        if (test_function(num, second_den)) resp += 'Buzz';
+        return resp;
 }
